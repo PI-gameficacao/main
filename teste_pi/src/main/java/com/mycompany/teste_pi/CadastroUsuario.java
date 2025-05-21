@@ -42,6 +42,8 @@ public class CadastroUsuario extends JFrame{
 
         btnCadastrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                dispose();
+                new LoginUsuario().setVisible(true);
                 cadastrarUsuario();
             }
         });
