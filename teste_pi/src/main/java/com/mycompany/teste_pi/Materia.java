@@ -19,10 +19,7 @@ public class Materia {
         this.idUsuario = idUsuario;
     }
 
-    public int getIdMateria() { return idMateria; }
-    public String getNome() { return nome; }
-    public int getIdUsuario() { return idUsuario; }
-
-    public void setNome(String nome) { this.nome = nome; }
-    public void setIdUsuario(int idUsuario) { this.idUsuario = idUsuario; }
+    public String getNome(){
+        return nome;
+    }
 }

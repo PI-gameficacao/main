@@ -11,6 +11,6 @@ package com.mycompany.teste_pi;
 public class Teste_pi {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }
